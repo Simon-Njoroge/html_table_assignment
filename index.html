@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0%;
+            border: 0%;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            border-radius: 20px;
+            border-bottom: 4px solid green;
+            border-collapse: collapse;
+            margin-left: 20%;
+            margin-right: 20%;
+            font-family: 'Times New Roman', Times, serif;
+            font: bold;
+            font-size: large;
+        }
+        table,tr,th,td{
+            border-collapse: collapse;
+        }
+        tr{
+            border-bottom: 1px solid gray;
+        }
+        tr:nth-child(even){
+            background-color: #f3f3f3;
+            color: #1e927a;
+        }
+        th{
+            background-color: #019879;
+            color: white;
+            text-align: left;
+        }
+        th, td{
+            padding-left: 10px;
+            width: 40%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        @media (max-width:768px){
+            table{
+            border-radius: 20px;
+            border-bottom: 2px solid #079276;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>HTML FORM</h1>
+
+    <!-- table -->
+
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Points</th>
+            <th>Team</th>
+        </tr>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Domenic</td>
+                <td>88,110</td>
+                <td>dcode</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Sally</td>
+                <td>72,400</td>
+                <td>students</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>52,300</td>
+                <td>dcode</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Simon</td>
+                <td>50,400</td>
+                <td>students</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Jane</td>
+                <td>43,900</td>
+                <td>dcode</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Phillip</td>
+                <td>38,200</td>
+                <td>students</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Joy</td>
+                <td>27,400</td>
+                <td>dcode</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Ruth</td>
+                <td>20000</td>
+                <td>dcode</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
